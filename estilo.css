@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(#ae7fe4, #26195a);
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #d6d6ea;
+  }
+.container-aplicativo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-aplicativo img{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+#informacoes-faixa, p{
+    font-size: 20px;
+    padding: 15px 10px;
+    text-align: center;
+
+}
+#container-botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#container-botoes button{
+    background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+#anterior, #proximo {
+    font-size: 2rem;
+}
+  
+#play-pause {
+    font-size: 3rem;
+}
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
